@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="427dp"
+        android:layout_height="749dp"
+        android:contentDescription="@string/sepatu"
+        app:srcCompat="@drawable/shoes" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="@string/button2"
+        android:layout_margin="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_margin="40dp"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/shoes_vans"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="62dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center|left"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/panah"
+        app:srcCompat="@drawable/panah"
+        tools:ignore="RtlHardcoded" />
+
+</FrameLayout>
