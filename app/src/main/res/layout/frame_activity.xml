@@ -42,7 +42,6 @@
         android:layout_gravity="center|left"
         android:layout_margin="10dp"
         android:contentDescription="@string/panah"
-        app:srcCompat="@drawable/panah"
         tools:ignore="RtlHardcoded" />
 
 </FrameLayout>
