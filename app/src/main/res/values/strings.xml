@@ -8,4 +8,16 @@
     <string name="sepatu">sepatu</string>
     <string name="shoes_vans">SHOES VANS</string>
     <string name="panah">panah</string>
+    <string name="right">Button</string>
+    <string name="match_parent">Button</string>
+    <string name="left">Button</string>
+    <string name="button_2">Button</string>
+    <string name="button1">Button</string>
+    <string name="righttext">RIGHT</string>
+    <string name="Match_Parent">Match Parent</string>
+    <string name="lefttext">LEFT</string>
+    <string name="buttonright"><![CDATA[>]]></string>
+    <string name="textselect">Select your Pepsi</string>
+    <string name="buttonleft"><![CDATA[<]]></string>
+    <string name="pepsilogo">TODO</string>
 </resources>
