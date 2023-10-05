@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/tablelayout"
+    tools:context=".TablelayoutActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:ignore="UselessLeaf">
+
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="146dp"
+        android:layout_height="100dp"
+        android:src="@drawable/Mario"
+        android:contentDescription="@string/Mario" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:text="@string/textcharacter"
+            android:textSize="23dp"
+            tools:ignore="SpUsage" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/insert_here_ch"
+            tools:ignore="LabelFor,RtlHardcoded"
+            android:autofillHints="" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="64dp"
+            android:layout_height="43dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/tablecar"
+            android:textSize="23dp"
+
+            tools:ignore="RtlHardcoded,SpUsage" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:layout_marginLeft="40dp"
+            android:inputType="text"
+            android:text="@string/insert_here_car"
+            tools:ignore="LabelFor,RtlHardcoded"
+            android:autofillHints="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/skilltable"
+            android:textSize="23dp"
+
+            tools:ignore="RtlHardcoded,SpUsage" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:layout_marginLeft="40dp"
+            android:inputType="text"
+            android:text="@string/insert_here_skill"
+            tools:ignore="LabelFor,RtlHardcoded"
+            android:autofillHints="" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/submitbutton"
+            android:backgroundTint="#FF0000"
+            app:iconTint="#FF0000" />
+    </TableRow>
+</TableLayout>

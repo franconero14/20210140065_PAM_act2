@@ -20,4 +20,13 @@
     <string name="textselect">Select your Pepsi</string>
     <string name="buttonleft"><![CDATA[<]]></string>
     <string name="pepsilogo">TODO</string>
+    <string name="tablelayout">table</string>
+    <string name="textcharacter">Character</string>
+    <string name="insert_here_ch">insert here</string>
+    <string name="tablecar">car</string>
+    <string name="insert_here_car">insert here</string>
+    <string name="skilltable">Skill</string>
+    <string name="insert_here_skill">insert here</string>
+    <string name="submitbutton">Submit</string>
+    <string name="Mario">TODO</string>
 </resources>
